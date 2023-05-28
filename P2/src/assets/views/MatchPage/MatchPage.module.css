@@ -1,0 +1,118 @@
+.match {
+    margin: 160px 16.25%
+}
+
+.matchPageHeader {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.winner {
+    font-weight: 800;
+    display: flex;
+    justify-content: center
+}
+
+.matchTitle {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -5px;
+}
+
+.courtDetail {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: thin;
+}
+
+.userDetails {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0px 30px;
+    position: relative;
+}
+
+.plain {
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.arrowDown {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #f00;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.arrowUp {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #0f0;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.versus {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 7px;
+}
+
+.matchOption {
+    position: fixed;
+    right: 150px;
+}
+
+.linkContainer {
+    width: 220px;
+    right: 0px;
+}
+
+.matchDetails {
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px
+}
+
+.setsContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.setContainer {
+    width: 150px,
+}
+
+.setHeader {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.scoresContainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 15px;
+}

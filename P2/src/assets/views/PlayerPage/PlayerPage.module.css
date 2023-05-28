@@ -1,0 +1,31 @@
+.player {
+    margin: 160px 16.25%
+}
+
+.playerPageHeader {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.rowContainer {
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+    justify-content: center;
+
+}
+
+.phoneContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.nameContainer {
+    font-size: 20px;
+    font-weight: 600;
+}
